@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <span id="round">Round 1</span>
+            <span id="score">Score: 1000</span>
+            <span id="timer">Time left: 10s</span>
+        </div>
+        <div class="content">
+            <img id="colorImage" src="" alt="Color Image">
+            <div class="options">
+                <button onclick="checkAnswer(this)">Option 1</button>
+                <button onclick="checkAnswer(this)">Option 2</button>
+                <button onclick="checkAnswer(this)">Option 3</button>
+                <button onclick="checkAnswer(this)">Option 4</button>
+            </div>
+        </div>
+        <button id="restart" onclick="startGame()">PLAY AGAIN</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
